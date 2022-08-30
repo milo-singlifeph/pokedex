@@ -22,7 +22,7 @@ function App() {
     <>
       <Navigation typeFilter={typeFilter} types={types} setType={setType} />
       <Routes>
-        <Route path="/" element={<AllPokemons pokemons={pokemons} />} />
+        <Route path="/pokedex" element={<AllPokemons pokemons={pokemons} />} />
         <Route
           path={`/type/${type}`}
           element={<TypedPokemons pokemons={typeFilteredPokemons} />}

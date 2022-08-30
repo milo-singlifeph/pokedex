@@ -30,7 +30,7 @@ const Navigation = (props) => {
         className="all pv1 ph5 dim pointer"
         onClick={() => {
           setType("");
-          navigate("/", { replace: true });
+          navigate("/pokedex", { replace: true });
         }}
       >
         ALL
