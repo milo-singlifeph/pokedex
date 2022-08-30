@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+
+ul.types {
+  font-family: "Silkscreen", cursive;
+}
+
+ul.types li {
+  border: 2px outset #75787b;
+}
+
+ul.types li.all {
+  background-color: #feca1b;
+}
+
+ul.types li.type {
+  background-color: #ef5350;
+}
