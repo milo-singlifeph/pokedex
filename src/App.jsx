@@ -24,11 +24,11 @@ function App() {
       <Routes>
         <Route path="/pokedex" element={<AllPokemons pokemons={pokemons} />} />
         <Route
-          path={`/type/${type}`}
+          path={`/pokedex/type/${type}`}
           element={<TypedPokemons pokemons={typeFilteredPokemons} />}
         />
         <Route
-          path={`/pokemon/${selectedPokemon}`}
+          path={`/pokedex/pokemon/${selectedPokemon}`}
           element={<SelectedPokemon selectedPokemon={selectedPokemon} />}
         />
       </Routes>

@@ -55,14 +55,14 @@ const MyProvider = (props) => {
 
     setType(typeName);
     setTypeFilteredPokemons([...filteredPokemons]);
-    navigate(`/type/${typeName}`, { replace: true });
+    navigate(`/pokedex/type/${typeName}`, { replace: true });
   };
 
   const selectPokemon = (name, image, navigate) => {
     localStorage.setItem("selectedPokemon", JSON.stringify(name));
     setSelectedPokemon(name);
 
-    navigate(`/pokemon/${name}`, { replace: true });
+    navigate(`/pokedex/pokemon/${name}`, { replace: true });
   };
 
   const state = {
